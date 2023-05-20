@@ -7,12 +7,19 @@
     box-sizing: border-box;
 }
 
-body{
-    
-    background:url(/assets/bg-desktop.png)no-repeat top center/cover;
-    height: 100vh;
+
+:root {
+
+--bg-url: url(./assets/bg-desktop.png);
+--highlight-color-:rgba(255, 255, 255, 0.2);
+
 }
 
+body{
+    
+    background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
+}
 
 .header{
     display: flex;
@@ -169,7 +176,7 @@ body{
 
 
 #social-links a:hover{
-    background: rgba(255, 255, 255, 0.2);
+    background: var(--highlight-color-);
     padding: 16px;
     border-radius: 50%;
 }
