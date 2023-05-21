@@ -21,6 +21,7 @@ Project developed for my improvement in HTML | CSS | JS
 <p align="center">
   <img alt="projeto DevLinks" src="./assets/readme-chatgpt.png" width="100%">
   <img alt="projeto DevLinks" src="./assets/readme-chat2.png" width="100%">
+  <img alt="projeto DevLinks" src="./assets/readme-chat3.jpeg" width="30%">
   
 </p>
 
